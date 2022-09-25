@@ -1,3 +1,5 @@
+// This program first sort(using bubble sort in ascending) the array of 5 element in an array and then search the element of array using binary search.
+
 #include<iostream>
 using namespace std;
 
@@ -67,8 +69,11 @@ int main(){
         }
         cout<<endl;
         
+        //Using Binary search to search element in an array
+        
         cout<<"\nPlease Enter an element which you want to search"<<endl;
         cin>>search;
+        
         ans = binarySearch(arr,0,5, search);
        
         if(ans== -1 )
